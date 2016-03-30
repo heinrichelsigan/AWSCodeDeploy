@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDeploy", "TestDeploy\TestDeploy.csproj", "{5452D81E-146E-4F6E-BC63-D3024AB76610}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBD4C123-CBB0-4386-9CBB-5E75A2F026FB}"
 	ProjectSection(SolutionItems) = preProject
 		appspec.yml = appspec.yml
@@ -21,16 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{2D53
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5452D81E-146E-4F6E-BC63-D3024AB76610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5452D81E-146E-4F6E-BC63-D3024AB76610}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5452D81E-146E-4F6E-BC63-D3024AB76610}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5452D81E-146E-4F6E-BC63-D3024AB76610}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
