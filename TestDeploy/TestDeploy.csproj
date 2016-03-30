@@ -42,18 +42,6 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="appspec.yml" />
-    <None Include="latest\SampleApp_Linux.zip" />
-    <None Include="SampleApp_Linux\appspec.yml" />
-    <None Include="SampleApp_Linux\scripts\install_dependencies" />
-    <None Include="SampleApp_Linux\scripts\start_server" />
-    <None Include="SampleApp_Linux\scripts\stop_server" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="SampleApp_Linux\index.html" />
-    <Content Include="SampleApp_Linux\LICENSE.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -8,5 +8,5 @@ namespace TestDeploy
 {
     public class Class1
     {
-    }
+    } 
 }
